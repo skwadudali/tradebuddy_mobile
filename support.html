@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trade Buddy Support</title>
+    <meta
+      name="description"
+      content="Trade Buddy support page with website and privacy policy links for App Store and Play Store support URL requirements."
+    />
+    <style>
+      :root {
+        --bg: #081018;
+        --panel: rgba(255, 255, 255, 0.07);
+        --panel-strong: rgba(255, 255, 255, 0.1);
+        --border: rgba(255, 255, 255, 0.11);
+        --text: #ffffff;
+        --text-soft: rgba(255, 255, 255, 0.76);
+        --muted: rgba(255, 255, 255, 0.55);
+        --brand: #00b894;
+        --brand-light: #00cec9;
+        --radius: 24px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 20px;
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 15% 20%, rgba(0, 206, 201, 0.18), transparent 24%),
+          radial-gradient(circle at 80% 10%, rgba(0, 184, 148, 0.16), transparent 22%),
+          linear-gradient(160deg, #071018 0%, #0c1820 48%, #091118 100%);
+      }
+
+      a {
+        color: var(--brand-light);
+      }
+
+      .card {
+        width: min(760px, 100%);
+        padding: 34px;
+        border-radius: var(--radius);
+        border: 1px solid var(--border);
+        background: var(--panel);
+        box-shadow: 0 26px 70px rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur(16px);
+      }
+
+      .badge {
+        display: inline-block;
+        margin-bottom: 14px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        font-size: 12px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--brand-light);
+        background: rgba(0, 184, 148, 0.14);
+        border: 1px solid rgba(0, 184, 148, 0.35);
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 4vw, 3.1rem);
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+      }
+
+      .lead {
+        margin: 16px 0 0;
+        color: var(--text-soft);
+        font-size: 1.05rem;
+        line-height: 1.7;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 26px;
+      }
+
+      .panel {
+        padding: 18px;
+        border-radius: 18px;
+        border: 1px solid var(--border);
+        background: var(--panel-strong);
+      }
+
+      .panel h2 {
+        margin: 0 0 10px;
+        font-size: 1rem;
+      }
+
+      .panel p {
+        margin: 0;
+        color: var(--text-soft);
+        line-height: 1.65;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 28px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 0 18px;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        text-decoration: none;
+        font-weight: 700;
+      }
+
+      .button.primary {
+        color: #071018;
+        background: linear-gradient(135deg, var(--brand-light), var(--brand));
+      }
+
+      .button.secondary {
+        color: var(--text);
+        border-color: var(--border);
+        background: rgba(255, 255, 255, 0.04);
+      }
+
+      .footnote {
+        margin-top: 24px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      @media (max-width: 640px) {
+        .card {
+          padding: 22px;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="badge">Trade Buddy Support</div>
+      <h1>Support and Contact</h1>
+      <p class="lead">
+        This page is the public support URL for Trade Buddy. If you need help with the app, account access, listings, or
+        privacy questions, use the links below to reach the main website or review the privacy policy.
+      </p>
+
+      <section class="grid">
+        <article class="panel">
+          <h2>Website</h2>
+          <p>
+            Visit <a href="https://mytradebuddy.com">mytradebuddy.com</a> for the main Trade Buddy website and general
+            support contact options.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>Privacy</h2>
+          <p>
+            Review the full privacy policy at <a href="./privacy-policy.html">privacy-policy.html</a> for information
+            about data collection, storage, account deletion, and usage.
+          </p>
+        </article>
+      </section>
+
+      <div class="actions">
+        <a class="button primary" href="https://mytradebuddy.com">Open Trade Buddy Website</a>
+        <a class="button secondary" href="./privacy-policy.html">Open Privacy Policy</a>
+      </div>
+
+      <p class="footnote">Last updated: April 12, 2026</p>
+    </main>
+  </body>
+</html>
