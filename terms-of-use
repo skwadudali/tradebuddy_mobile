@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trade Buddy Terms of Use</title>
+    <meta
+      name="description"
+      content="Trade Buddy Terms of Use covering acceptable conduct, objectionable content policy, reporting, blocking, and account enforcement."
+    />
+    <style>
+      :root {
+        --bg: #0b1117;
+        --card: rgba(255, 255, 255, 0.06);
+        --border: rgba(255, 255, 255, 0.1);
+        --text: #ffffff;
+        --text-soft: rgba(255, 255, 255, 0.75);
+        --muted: rgba(255, 255, 255, 0.55);
+        --brand: #00b894;
+        --brand-light: #00cec9;
+        --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 12% 18%, rgba(0, 206, 201, 0.18), transparent 25%),
+          radial-gradient(circle at 85% 10%, rgba(0, 184, 148, 0.16), transparent 20%),
+          linear-gradient(180deg, #0b1117 0%, #0d1620 52%, #0a1015 100%);
+      }
+
+      a {
+        color: var(--brand-light);
+      }
+
+      .shell {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 40px 0 72px;
+      }
+
+      .hero,
+      .content {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 22px;
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(14px);
+      }
+
+      .hero {
+        padding: 32px;
+        margin-bottom: 24px;
+      }
+
+      .content {
+        padding: 10px 0;
+      }
+
+      .eyebrow {
+        display: inline-block;
+        padding: 7px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(0, 184, 148, 0.35);
+        background: rgba(0, 184, 148, 0.15);
+        color: var(--brand-light);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-bottom: 14px;
+      }
+
+      h1,
+      h2 {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: clamp(2.1rem, 4vw, 3.2rem);
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+      }
+
+      p,
+      ul {
+        color: var(--text-soft);
+        line-height: 1.68;
+        margin: 0;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .updated {
+        margin-top: 12px;
+        color: var(--muted);
+      }
+
+      .intro {
+        margin-top: 20px;
+        max-width: 760px;
+      }
+
+      .section {
+        padding: 26px 32px;
+      }
+
+      .section + .section {
+        border-top: 1px solid var(--border);
+      }
+
+      li + li,
+      p + p,
+      p + ul,
+      ul + p {
+        margin-top: 10px;
+      }
+
+      @media (max-width: 640px) {
+        .shell {
+          width: min(100% - 20px, 920px);
+          padding: 20px 0 36px;
+        }
+
+        .hero,
+        .section {
+          padding: 22px 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div class="eyebrow">Trade Buddy</div>
+        <h1>Terms of Use</h1>
+        <p class="updated">Last updated: April 17, 2026</p>
+        <p class="intro">
+          These terms apply before you access Trade Buddy user-generated content. By continuing to browse or use Trade
+          Buddy, you agree to these Terms of Use and the zero-tolerance policy for objectionable content and abusive users.
+        </p>
+      </section>
+
+      <section class="content">
+        <div class="section">
+          <h2>1. Eligibility and Access</h2>
+          <p>
+            Trade Buddy is a school-community marketplace intended for parents and guardians. Guests may browse public
+            listings. Creating listings and account management require a registered account.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>2. No Tolerance for Objectionable Content</h2>
+          <p>
+            You may not post objectionable content, harassment, hate speech, threats, sexual content, scams, or abusive
+            material. Trade Buddy has zero tolerance for abusive users and objectionable listings.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>3. Reporting and Blocking</h2>
+          <p>
+            Users can report objectionable listings and block abusive sellers in the app. Blocking removes that seller
+            from the user feed immediately.
+          </p>
+          <p>
+            Trade Buddy reviews reports within 24 hours and removes confirmed objectionable content or abusive accounts.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>4. Listing Rules</h2>
+          <ul>
+            <li>Listings must describe genuine school-related items or requests.</li>
+            <li>Listings must use accurate titles, descriptions, and pricing details.</li>
+            <li>Listings may not include profanity, discriminatory language, or unsafe content.</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>5. Enforcement</h2>
+          <p>
+            Trade Buddy may remove content, suspend accounts, or permanently ban users who violate these terms or create
+            risk for other users.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>6. Contact</h2>
+          <p>
+            For questions about these terms or moderation concerns, contact Trade Buddy through
+            <a href="https://mytradebuddy.com">mytradebuddy.com</a> or the public support page at
+            <a href="./support.html">support.html</a>.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
